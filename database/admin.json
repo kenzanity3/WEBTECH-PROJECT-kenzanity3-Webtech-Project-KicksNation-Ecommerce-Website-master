@@ -1,0 +1,14 @@
+{
+  "Storename": "Kenneth Store",
+  "Storedescription": "Selling technology",
+  "businessEmail": "kennethjohnarante@gmail.com",
+  "admin": [
+    {
+      "AdminId": 1,
+      "AdminName": "Admin",
+      "Username": "Admin",
+      "Password": "@StoreAdmin123"
+    }
+  ],
+  "itemDelivered": []
+}

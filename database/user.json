@@ -1,0 +1,50 @@
+[
+  {
+    "Userid": 1,
+    "FirstName": "example example",
+    "LastName": "example",
+    "Address": "300 Sipping walk Street Heart, Yah mean city, ph",
+    "PhoneNumber": "09205561665",
+    "Email": "dummyaccount12345@gmail.com",
+    "Birthdate": "2006-10-18",
+    "Username": "example",
+    "Password": "@Exa12345678",
+    "Cart": [
+      {
+        "Itemid": 15,
+        "Name": "Lusam",
+        "Quantity": 16,
+        "Size": "38",
+        "Price": 40.99
+      },
+      {
+        "Itemid": 2,
+        "Name": "Kyrie 2 All Star Basketball Shoes (Blue)",
+        "Quantity": 10,
+        "Size": "36",
+        "Price": 530.99
+      },
+      {
+        "Itemid": 1,
+        "Name": " Kyrie 2 All Star Basketball Shoes (Red)",
+        "Quantity": 1,
+        "Size": "38",
+        "Price": "530.99"
+      }
+    ],
+    "Delivered": []
+  },
+  {
+    "Userid": 2,
+    "FirstName": "",
+    "LastName": "",
+    "Address": "",
+    "PhoneNumber": "",
+    "Email": "kennetharante@gmail.com",
+    "Birthdate": "",
+    "Username": "kennetharante",
+    "Password": "@example1234",
+    "Cart": [],
+    "Delivered": []
+  }
+]

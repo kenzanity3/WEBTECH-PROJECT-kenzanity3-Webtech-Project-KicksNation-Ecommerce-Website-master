@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <script defer src = "contact.js" type="module"></script>
+    <script defer src = "../managementjavascript/ui.js" type="module"></script>
+</head>
+<body>
+    <!-- making header -->
+    <div class="header">
+        <div class="container">
+            <!-- making navigation bar consist of logo and menu links -->
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="../images/logo.png" alt="KicksNation logo" width="125px"></a>
+                </div>
+                <!-- menu -->
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a id="homepageurl"><i class="fa fa-fw fa-home"></i> Home</a></li>
+                        <li><a id="productsurl"><i class="fi fi-ss-hiking-boot"></i>  Products</a></li>
+                        <li><a id="aboutusurl"><i class="fa fa-fw fa-envelope"></i> About</a></li>
+                        <li><a id="contactusurl"> <i class="fi fi-ss-bubble-discussion"></i>  Contact</a></li>
+                        <li><a id="accounturl"><i class="fi fi-rr-circle-user"></i> Account</a></li>
+                        <li><a id="carturl" onclick="return confirmDataLoss();"><i class="fi fi-rr-shopping-cart" alt="cart" width="30px" height="30px"></i></a></li>
+                    </ul>
+                </nav>
+                <img src="../images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

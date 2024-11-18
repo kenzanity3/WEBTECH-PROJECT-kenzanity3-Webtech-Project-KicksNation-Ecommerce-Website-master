@@ -1,6 +1,6 @@
-import  {userID,userdatabase,oldinfo,GetUserData,dateofbirth,checkid} from '../managementjavascript/fetchanddisplay.js'
-import {Userchangedetail} from '../managementjavascript/usermanagement.js';
-import  {phonematchesPattern,EmailmatchesPattern,AddressmatchesPattern,UsernamematchesPattern,isValidPassword,idcheck} from '../managementjavascript/validation.js';
+import  {userID,userdatabase,oldinfo,GetUserData,dateofbirth,checkid} from './managementjavascript/fetchanddisplay.js'
+import {Userchangedetail} from './managementjavascript/usermanagement.js';
+import  {phonematchesPattern,EmailmatchesPattern,AddressmatchesPattern,UsernamematchesPattern,isValidPassword,idcheck} from './managementjavascript/validation.js';
 
 idcheck();
 

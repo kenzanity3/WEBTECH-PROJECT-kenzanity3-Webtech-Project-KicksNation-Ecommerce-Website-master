@@ -1,4 +1,4 @@
-import {userID, itemdatabase} from '../managementjavascript/fetchanddisplay.js';
+import {userID, itemdatabase} from './managementjavascript/fetchanddisplay.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 // Get the filter value from URL parameters (default to null if not set)

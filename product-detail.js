@@ -1,6 +1,6 @@
-import {idcheck} from '../managementjavascript/validation.js' 
-import{itemID, userID,GetItemData,GetUserData} from '../managementjavascript/fetchanddisplay.js'
-import {addingcartitem} from '../managementjavascript/usermanagement.js'
+import {idcheck} from './managementjavascript/validation.js' 
+import{itemID, userID,GetItemData,GetUserData} from './managementjavascript/fetchanddisplay.js'
+import {addingcartitem} from './managementjavascript/usermanagement.js'
 
 const itemimage = document.getElementById('product-img');
 const itemname = document.getElementById('name');

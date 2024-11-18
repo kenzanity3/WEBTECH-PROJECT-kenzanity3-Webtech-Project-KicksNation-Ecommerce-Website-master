@@ -6,7 +6,7 @@
         "Rating":5,
         "Brand": "Nike",
         "Itemdescription":"Ready for new basketball shoes? How about for gym class or just playing outside? Meet the Nike Kyrie 2 All Star the comfortable basketball shoes for you!",
-        "Image":"../images/Shoes/Nike - Kyrie 2 All Star Basketball Shoes/Kyrie 2 Id Kids Basketball Shoe-min.png"
+        "Image":"./images/Shoes/Nike - Kyrie 2 All Star Basketball Shoes/Kyrie 2 Id Kids Basketball Shoe-min.png"
     },
     {
         "Itemid":2,
@@ -15,7 +15,7 @@
         "Rating":5,
         "Brand": "Nike",
         "Itemdescription":"Ready for new basketball shoes? How about for gym class or just playing outside? Meet the Nike Kyrie 2 All Star the comfortable basketball shoes for you!",
-        "Image":"../images/Shoes/Nike - Kyrie 2 All Star Basketball Shoes/Boys Nike Kyrie All Star Basketball Shoes Blue3-min.png"
+        "Image":"./images/Shoes/Nike - Kyrie 2 All Star Basketball Shoes/Boys Nike Kyrie All Star Basketball Shoes Blue3-min.png"
     },
     {
         "Itemid":3,
@@ -24,7 +24,7 @@
         "Rating":3,
         "Brand": "Nike",
         "Itemdescription":"Enjoy a calm, comfortable experience—no matter where your day off takes you. Made with soft yet supportive foam, the minimal design makes these slides easy to style with or without socks.",
-        "Image":"../images/Shoes/Nike Calm/NIKE Calm Slide-trans.png"
+        "Image":"./images/Shoes/Nike Calm/NIKE Calm Slide-trans.png"
     },
     {
         "Itemid":4,
@@ -42,7 +42,7 @@
         "Rating":4,
         "Brand": "Adidas",
         "Itemdescription":"Super Shoes!w",
-        "Image":"../images/Shoes/Adidas - Adizero_Select_2.0_Low_Trainers_Blue/Adizero_Select_2.0_Low_Trainers_Black1-min.png"
+        "Image":"./images/Shoes/Adidas - Adizero_Select_2.0_Low_Trainers_Blue/Adizero_Select_2.0_Low_Trainers_Black1-min.png"
     },
     {
         "Itemid":6,
@@ -51,7 +51,7 @@
         "Rating":4,
         "Brand": "Nike",
         "Itemdescription":"sawdsa123",
-        "Image":"/images/Shoes/Adidas - Adizero_Select_2.0_Low_Trainers_Blue/Adizero_Select_2.0_Low_Trainers_Blue-min.png" 
+        "Image":"./images/Shoes/Adidas - Adizero_Select_2.0_Low_Trainers_Blue/Adizero_Select_2.0_Low_Trainers_Blue-min.png" 
     },
     {
         "Itemid":7,
@@ -60,7 +60,7 @@
         "Rating":5,
         "Brand": "Adidas",
         "Itemdescription":"Just Awesome Shoes",
-        "Image":"../images/Shoes/Adidas - Hiking Shoes/Terrex_Anylander_Mid_Hiking_Shoes_Beige-min.png"
+        "Image":"./images/Shoes/Adidas - Hiking Shoes/Terrex_Anylander_Mid_Hiking_Shoes_Beige-min.png"
     },
     {
         "Itemid":8,
@@ -69,7 +69,7 @@
         "Rating":3,
         "Brand": "Nike",
         "Itemdescription":"Too Infinity",
-        "Image":"../images/Shoes/Nike InfinityRN 4/NIKE+REACTX+INFINITY+RUN+4 (1).png"
+        "Image":"./images/Shoes/Nike InfinityRN 4/NIKE+REACTX+INFINITY+RUN+4 (1).png"
     },
     {
         "Itemid":10,
@@ -78,7 +78,7 @@
         "Rating":3,
         "Brand": "Adidas",
         "Itemdescription":"sawdsa123",
-        "Image":"../images/Shoes/Adidas - Dropset3Shoes/Dropset_3_Shoes_Black.png"
+        "Image":"./images/Shoes/Adidas - Dropset3Shoes/Dropset_3_Shoes_Black.png"
     },
     {
         "Itemid":11,
@@ -87,7 +87,7 @@
         "Rating":1,
         "Brand": "Nike",
         "Itemdescription":"saw cool stuff",
-        "Image":"../images/Shoes/Nike Ja 2 _Foundation_ EP/JA+2+EP (1).png"
+        "Image":"./images/Shoes/Nike Ja 2 _Foundation_ EP/JA+2+EP (1).png"
     },
     {
         "Itemid":12,
@@ -96,7 +96,7 @@
         "Rating":4,
         "Brand": "Nike",
         "Itemdescription":"Nike Shoes!",
-        "Image":"../images/Shoes/Nike G.T. Jump 2 EP0/NIKE+AIR+ZOOM+G.T.+JUMP+2+EP.png"
+        "Image":"./images/Shoes/Nike G.T. Jump 2 EP0/NIKE+AIR+ZOOM+G.T.+JUMP+2+EP.png"
     },
     {
         "Itemid":13,

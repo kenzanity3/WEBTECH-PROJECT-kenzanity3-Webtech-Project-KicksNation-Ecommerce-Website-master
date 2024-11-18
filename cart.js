@@ -1,7 +1,7 @@
 // Import necessary functions from external modules
-import { idcheck} from "../managementjavascript/validation.js"      // For user login verification
-import { itemdatabase, GetUserData } from "../managementjavascript/fetchanddisplay.js"; // For fetching items and user data
-import { deletecartitems, updatecartitem } from "../managementjavascript/usermanagement.js" // For cart item deletion and updating
+import { idcheck} from "./managementjavascript/validation.js"      // For user login verification
+import { itemdatabase, GetUserData } from "./managementjavascript/fetchanddisplay.js"; // For fetching items and user data
+import { deletecartitems, updatecartitem } from "./managementjavascript/usermanagement.js" // For cart item deletion and updating
 
 // Declare global variables for user items, subtotal, items, and user data
 var useritems = [];        // Stores the list of items in the user's cart

@@ -1,5 +1,5 @@
-import { userdatabase,admindatabase } from "../managementjavascript/fetchanddisplay.js";
-import {Userchangedetail} from "../managementjavascript/usermanagement.js"
+import { userdatabase,admindatabase } from "./managementjavascript/fetchanddisplay.js";
+import {Userchangedetail} from "./managementjavascript/usermanagement.js"
 
 
 // Function to check user login credentials

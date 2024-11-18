@@ -1,6 +1,6 @@
-import { userdatabase} from "../managementjavascript/fetchanddisplay.js";
-import { CreateUser } from "../managementjavascript/usermanagement.js";
-import { isValidPassword,UsernamematchesPattern,EmailmatchesPattern} from "../managementjavascript/validation.js";
+import { userdatabase} from "./managementjavascript/fetchanddisplay.js";
+import { CreateUser } from "./managementjavascript/usermanagement.js";
+import { isValidPassword,UsernamematchesPattern,EmailmatchesPattern} from "./managementjavascript/validation.js";
 
 // Function to validate user input
 function validateInput(Email, username, password, repassword, database) {

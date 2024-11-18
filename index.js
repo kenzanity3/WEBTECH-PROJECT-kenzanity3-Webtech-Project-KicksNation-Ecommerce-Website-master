@@ -1,4 +1,4 @@
-import { userID } from "../managementjavascript/fetchanddisplay.js";
+import { userID } from "./managementjavascript/fetchanddisplay.js";
 
 
 const firstcategory = document.getElementById("firstcategory");

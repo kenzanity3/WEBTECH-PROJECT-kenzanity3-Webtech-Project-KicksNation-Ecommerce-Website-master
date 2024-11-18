@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     window.menutoggle = menutoggle;
     
     // Check if the current page is an authentication page based on the query parameter
-    const isAuthenticationPage = window.location.pathname.toLowerCase().includes('/authenticationpage/authentication.html');
+    const isAuthenticationPage = window.location.pathname.toLowerCase().includes('authentication.html');
         
     // If the current page is not the authentication page, check if the user is logged in.
     if (!isAuthenticationPage) {
@@ -80,36 +80,33 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         if (IsLoggedIn) {
             alert("You illegally login"); // Alert the user for unauthorized access
-            location.replace("../authenticationpage/Authentication.html"); // Redirect to the authentication page
+            location.replace("./Authentication.html"); // Redirect to the authentication page
         }
     }
 
-    // Dynamically determine the base path based on the current file's location
-    const basePath = isAuthenticationPage ? '..' : '.';
-
     // Navigation link event listeners
   document.getElementById('productsurl').onclick = function() {
-    window.location.assign(`${basePath}/Products.html?Userid=${userID()}&Page=1&Filter=1&Brand=Default`);
+    window.location.assign(`./Products.html?Userid=${userID()}&Page=1&Filter=1&Brand=Default`);
   };
 
   document.getElementById('homepageurl').onclick = function() {
-    window.location.assign(`${basePath}/index.html?Userid=${userID()}`);
+    window.location.assign(`./index.html?Userid=${userID()}`);
   };
 
   document.getElementById('aboutusurl').onclick = function() {
-    window.location.assign(`${basePath}/about.html?Userid=${userID()}`);
+    window.location.assign(`./about.html?Userid=${userID()}`);
   };
 
   document.getElementById('contactusurl').onclick = function() {
-    window.location.assign(`${basePath}/contact.html?Userid=${userID()}`);
+    window.location.assign(`./contact.html?Userid=${userID()}`);
   };
 
   document.getElementById('carturl').onclick = function() {
-    window.location.assign(`${basePath}/cart.html?Userid=${userID()}`);
+    window.location.assign(`./cart.html?Userid=${userID()}`);
   };
 
   document.getElementById('accounturl').onclick = async function() {
-    window.location.assign(await idcheck() ? `${basePath}/../authenticationpage/Authentication.html` : `${basePath}/account.html?Userid=${userID()}`);
+    window.location.assign(await idcheck() ? `./Authentication.html` : `./account.html?Userid=${userID()}`);
   };
 });
 

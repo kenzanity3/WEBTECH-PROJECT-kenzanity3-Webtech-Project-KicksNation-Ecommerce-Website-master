@@ -45,7 +45,7 @@ export async function GetItemData() {
 // Function to fetch user data from the API
 export async function userdatabase() {
     try {
-        const response = await fetch('../database/user.json'); // Await the fetch call to get user data
+        const response = await fetch('./database/user.json'); // Await the fetch call to get user data
         const data = await response.json(); // Await the response.json() call to parse the JSON
         return data; // Return the parsed user data
     } catch (error) {
@@ -57,7 +57,7 @@ export async function userdatabase() {
     // Function to fetch admin data from the API
     export async function admindatabase() {
     try {
-        const response = await fetch('../database/admin.json'); // Await the fetch call to get admin data
+        const response = await fetch('./database/admin.json'); // Await the fetch call to get admin data
         const data = await response.json(); // Await the response.json() call to parse the JSON
         return data; // Return the parsed admin data
     } catch (error) {
@@ -69,7 +69,7 @@ export async function userdatabase() {
 // Function to fetch admin data from the API
 export async function itemdatabase() {
     try {
-        const response = await fetch('../database/itemdescription.json'); // Await the fetch call to get item data
+        const response = await fetch('./database/itemdescription.json'); // Await the fetch call to get item data
         const data = await response.json(); // Await the response.json() call to parse the JSON
         return data; // Return the parsed item data
     } catch (error) {

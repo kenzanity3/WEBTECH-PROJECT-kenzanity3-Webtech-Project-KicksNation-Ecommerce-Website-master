@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     // Dynamically determine the base path based on the current file's location
-    const basePath = isAuthenticationPage ? '../userhomepage' : '.';
+    const basePath = isAuthenticationPage ? '..' : '.';
 
     // Navigation link event listeners
   document.getElementById('productsurl').onclick = function() {
